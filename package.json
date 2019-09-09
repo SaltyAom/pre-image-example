@@ -1,0 +1,21 @@
+{
+	"name": "pre-image-example",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"dependencies": {
+		"lit-element": "^2.2.1",
+		"parcel-plugin-ogimage": "^1.1.0",
+		"pre-image": "^0.2.0"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.3"
+	},
+	"browserslist": [
+		"Chrome > 50"
+	]
+}

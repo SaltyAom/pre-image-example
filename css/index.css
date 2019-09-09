@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url('/fonts/Product Sans Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Material Icons Round';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/material-icons/material-icons-round.woff2") format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Product Sans";
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f6fe;
+    overflow: hidden;
+}
+
+::selection, ::-webkit-selection {
+    background-color: rgba(0,123,255, .25);
+}

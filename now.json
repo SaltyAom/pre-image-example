@@ -1,0 +1,6 @@
+{
+	"version": 2,
+	"name": "pre-image-test2",
+	"builds": [{ "src": "package.json", "use": "@now/static-build" }],
+	"regions": ["all"]
+}
